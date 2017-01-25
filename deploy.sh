@@ -14,5 +14,12 @@
 # Installation des outils git
   apt-get install git -y
 
+# On se place dans le répertoire /var/www/html/
+  cd /var/www/html/
+  
+# On importe le projet github
+  git clone https://github.com/AdrienCeron/webcloud.git
 
+#copie du fichier index.html
+  cp index.html Webcloud
   
