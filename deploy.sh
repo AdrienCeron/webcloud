@@ -19,7 +19,15 @@
   
 # On importe le projet github
   git clone https://github.com/AdrienCeron/webcloud.git
+  
+#On crée un répertoire /var/www/html/webcloud/
+  mkdir /var/www/html/webcloud
 
-#copie du fichier index.html
-  cp index.html Webcloud
+#Copie du fichier index.html dans le dossier webcloud
+  cp index.html Webcloud /var/www/html/webcloud/
+ 
+#On accorde les droits aux utilisateurs
+  cd Webcloud 
+  chmod +rwx deploy.sh
+  chmod +rwx Index.html
   
