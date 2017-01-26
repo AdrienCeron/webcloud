@@ -1,5 +1,5 @@
 #!/bin/bash
-  tail -n +3 "$0" | ssh root@; exit
+  tail -n +3 "$0" | ssh root@46.101.171.5; exit
 
 # Exclusion des erreurs
   set -eu
